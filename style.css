@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h1 
+{
+    color: aqua;
+    
+}
+h2{
+    color: aqua;
+}
+p{
+    color: aqua;
+    margin-left: 50px; /* Margen a la izquierda */
+    margin-right: 50px; /* Margen a la derecha */
+}
+.imgContacto{
+    width: 64px;
+    width: 64px;   
+    border-radius: 50px;
+}
+.imgRender{
+    width: 100%;
+    height: auto;
+}
+.profileImg{
+    width: 256px; /* ajusta el tamaño según tus necesidades */
+    height: 256px; /* ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* crea el borde circular */
+    border: 2px solid aqua; /* añade un borde opcional */
+}
+header {
+    display: flex;
+    justify-content: flex-end; /* Esto alinea el contenido a la derecha */
+    padding: 10px;
+    background-color: #333; /* Cambia el color de fondo según sea necesario */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aqua; /* Cambia el color del texto según sea necesario */
+    padding: 0 10px;
+}
